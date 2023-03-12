@@ -11,8 +11,8 @@ metadata:
     app: nodeapp
 spec:
   containers:
-    - name: nodeapp
-      image: kammana/nodeapp:v1
+    - name: firstContainer
+      image: sash1425/docker101tutorial
       ports:
         - containerPort: 8080
 ```
